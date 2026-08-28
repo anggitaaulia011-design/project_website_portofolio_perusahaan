@@ -140,3 +140,40 @@ h2{
     color: #765b66;
     margin-bottom: 30px;
 }
+
+.collection {
+    min-height: 550px;
+    padding: 60px 8%;
+    align-items: center;
+    background-color: #fff7f3;
+}
+
+.collection-card{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.card1{
+    width: 280px;
+    background-color: rgb(254, 219, 240);
+    padding: 18px;
+    border-radius: 20px;
+}
+
+.card1 img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.card2 {
+    width: 280px;
+    background-color: rgb(199, 237, 200);
+    padding: 18px;
+    border-radius: 20px;
+}
+
+.card2 img {
+    width: 100%;
+    border-radius: 20px;
+}
