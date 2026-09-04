@@ -152,28 +152,38 @@ h2{
     display: flex;
     justify-content: space-between;
     gap: 20px;
+    display: flex;
+    overflow-x: auto;
+    padding: 20px;
 }
 
-.card1{
-    width: 280px;
+.card{
+    flex: 0 0 280px;
+    height: 400px;
     background-color: rgb(254, 219, 240);
-    padding: 18px;
+    padding: 15px;
+    box-sizing: border-box;
     border-radius: 20px;
+    overflow: hidden;
 }
 
-.card1 img {
+.card img {
     width: 100%;
-    border-radius: 20px;
+    height: 230px;
+    object-fit: cover;
+    border-radius: 15px;
+    display: block;
 }
 
-.card2 {
-    width: 280px;
-    background-color: rgb(226, 242, 195);
-    padding: 18px;
-    border-radius: 20px;
+.card h3 {
+    margin-top: 15px;
+    margin-bottom: 8px;
 }
 
-.card2 img {
-    width: 100%;
-    border-radius: 20px;
+.card p {
+    margin: 0;
+    line-height: 1.5;
 }
+
+
+
